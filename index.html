@@ -702,13 +702,16 @@
 
     <div style="max-width: 800px; margin: 40px auto; padding: 20px; text-align: center;">
         <h2 style="color: #7c3aed; font-family: Arial, sans-serif; margin-bottom: 20px;">🎙️ Ask Our AI Host Anything!</h2>
-        <p style="color: #666; margin-bottom: 20px;">Have questions? Chat live with our AI assistant!</p>
-        <iframe
-            src="https://embed.liveavatar.com/v1/fcae91c3-5963-4870-9281-4115565994cc"
-            allow="microphone"
-            title="LiveAvatar Embed"
-            style="width: 100%; aspect-ratio: 16/9; border: none; border-radius: 12px;">
-        </iframe>
+        <div id="sara-agent" style="width: 100%; max-width: 800px; height: 500px; margin: 0 auto;"></div>
+        <script type="module"
+              src="https://agent.d-id.com/v2/index.js"
+              data-mode="full"
+              data-client-key="Z29vZ2xlLW9hdXRoMnwxMDI3MTU2MDU4MjU5MTAwNDI0Njg6dGRBZkxiakduR3g4WXZnVmJwNFNE"
+              data-agent-id="v2_agt_yF6feeHJ"
+              data-name="did-agent"
+              data-monitor="true"
+              data-target-id="sara-agent">
+        </script>
     </div>
     <!-- Banner Section -->
     <section class="banner-section">
